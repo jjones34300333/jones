@@ -1,19 +1,3 @@
-#! /bin/sh -e
-SCRATCH=scratch/$(basename "$0" .sh)
-
-./simple
-
-oldInterpreter=$(../src/patchelf --print-interpreter ./simple)
-echo "current interpreter is $oldInterpreter"
-
-rm -rf "${SCRATCH}"
-mkdir -p "${SCRATCH}"
-
-cp simple "${SCRATCH}"/
-../src/patchelf --set-interpreter /oops "${SCRATCH}/simple"
-
-echo "running with missing interpreter..."
-if "${SCRATCH}/simple"; then
-    echo "simple works, but it shouldn't"
-    exit 1
-fi
+version https://git-lfs.github.com/spec/v1
+oid sha256:712c98d70368cbbe4198302d2130d7612a4857802f432a4e282240c10e800ae8
+size 428

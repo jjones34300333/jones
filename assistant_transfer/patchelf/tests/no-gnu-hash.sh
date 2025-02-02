@@ -1,14 +1,3 @@
-#! /bin/sh -e
-SCRATCH=scratch/$(basename "$0" .sh)
-STRIP=${STRIP:-strip}
-
-rm -rf "${SCRATCH}"
-mkdir -p "${SCRATCH}"
-
-cp simple "${SCRATCH}/"
-
-${STRIP} --remove-section=.gnu.hash "${SCRATCH}/simple"
-
-# Check if patchelf handles binaries with GNU_HASH in dynamic section but
-# without .gnu.hash section
-../src/patchelf --set-interpreter /oops "${SCRATCH}/simple"
+version https://git-lfs.github.com/spec/v1
+oid sha256:05d85f32055290c662ef8245c4f8b1b937f37982a93a0dda859ed051a8c11d6a
+size 361

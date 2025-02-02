@@ -1,12 +1,3 @@
-#!/bin/bash
-
-#Get the necessary components
-apt-get update
-apt-get install openssh-server -y
-
-#Setup the necessary files
-wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/SSH/Apt/sshd_config --no-check-certificate -P /etc/ssh
-
-echo "You can now start OpenSSH Server by running /etc/init.d/ssh start"
-echo " "
-echo "The Open Server will be started at 127.0.0.1:22"
+version https://git-lfs.github.com/spec/v1
+oid sha256:41bb03a2ef2fba38269f7b5f48c015b843a8d1fe4402dcf3d460b36e092bb86b
+size 392

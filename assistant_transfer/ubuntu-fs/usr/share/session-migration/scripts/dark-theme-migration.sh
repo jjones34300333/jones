@@ -1,15 +1,3 @@
-#!/bin/sh
-
-# If the theme is "-dark", set the GNOME 42 dark preference
-case $(gsettings get org.gnome.desktop.interface gtk-theme) in
-  *-dark\')
-    gsettings set org.gnome.desktop.interface color-scheme "prefer-dark"
-    ;;
-esac
-
-# And set the new high-contrast preference
-case $(gsettings get org.gnome.desktop.interface gtk-theme) in
-  \'*HighContrast*)
-    gsettings set org.gnome.desktop.a11y.interface high-contrast true
-    ;;
-esac
+version https://git-lfs.github.com/spec/v1
+oid sha256:c93d18bb3e9c2cb851869f6be4fbb5e59ceba30cf66dd00707f903f74f2f695c
+size 440

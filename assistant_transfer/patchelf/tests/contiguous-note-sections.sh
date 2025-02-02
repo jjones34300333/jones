@@ -1,13 +1,3 @@
-#! /bin/sh -e
-
-SCRATCH=scratch/$(basename "$0" .sh)
-
-rm -rf "${SCRATCH}"
-mkdir -p "${SCRATCH}"
-
-cp contiguous-note-sections "${SCRATCH}/"
-
-# Running --set-interpreter on this binary should not produce the following
-# error:
-# patchelf: cannot normalize PT_NOTE segment: non-contiguous SHT_NOTE sections
-../src/patchelf --set-interpreter ld-linux-x86-64.so.2 "${SCRATCH}/contiguous-note-sections"
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd615427eb6c5392aa142f1a7a255d4788dea76285cf8c3c8ba69f4c767b79f5
+size 396

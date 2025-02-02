@@ -1,12 +1,3 @@
-#! /bin/sh -e
-
-SCRATCH=scratch/$(basename "$0" .sh)
-
-rm -rf "${SCRATCH}"
-mkdir -p "${SCRATCH}"
-cp "$(dirname "$(readlink -f "$0")")/empty-note" "${SCRATCH}/"
-
-# Running --set-interpreter on this binary should not produce the following
-# error:
-# patchelf: cannot normalize PT_NOTE segment: non-contiguous SHT_NOTE sections
-../src/patchelf --set-interpreter ld-linux-x86-64.so.2 "${SCRATCH}/empty-note"
+version https://git-lfs.github.com/spec/v1
+oid sha256:1cbe26d1954c4935259dcc65cb639c0b6f6ef077384144060708f66b635daec3
+size 402

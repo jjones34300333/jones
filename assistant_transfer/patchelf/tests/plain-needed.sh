@@ -1,25 +1,3 @@
-#! /bin/sh
-set -e
-
-SCRATCH=scratch/$(basename "$0" .sh)
-MAIN_ELF="${SCRATCH}/main"
-
-PATCHELF="../src/patchelf"
-
-rm -rf "${SCRATCH}"
-mkdir -p "${SCRATCH}"
-cp main "${SCRATCH}"/
-
-echo "Confirming main requires libfoo"
-${PATCHELF} --print-needed "${MAIN_ELF}" | grep -q libfoo.so
-
-echo "Testing --add-needed functionality"
-${PATCHELF} --add-needed bar.so "${MAIN_ELF}"
-${PATCHELF} --print-needed "${MAIN_ELF}" | grep -q bar.so
-
-echo "Testing --remove-needed functionality"
-${PATCHELF} --remove-needed bar.so "${MAIN_ELF}"
-if ${PATCHELF} --print-needed "${MAIN_ELF}" | grep -q bar.so; then
-	echo "ERROR: --remove-needed did not eliminate bar.so!"
-	exit 1
-fi
+version https://git-lfs.github.com/spec/v1
+oid sha256:1fe95163762dd25d7bcc531a5fdb410e896570bd284b1d08b4d64b0c4e5f14dd
+size 654

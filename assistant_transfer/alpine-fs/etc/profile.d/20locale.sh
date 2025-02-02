@@ -1,3 +1,3 @@
-export CHARSET=${CHARSET:-UTF-8}
-export LANG=${LANG:-C.UTF-8}
-export LC_COLLATE=${LC_COLLATE:-C}
+version https://git-lfs.github.com/spec/v1
+oid sha256:284a6ef56ab97a13a777c6b01ae14f2cc3d2b7a29c19e750e622e70cc3c73186
+size 97

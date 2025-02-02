@@ -1,20 +1,3 @@
-#! /bin/sh -e
-SCRATCH=scratch/$(basename "$0" .sh)
-
-rm -rf "${SCRATCH}"
-mkdir -p "${SCRATCH}"
-
-oldLibc=$(../src/patchelf --print-needed big-dynstr | grep -v 'foo\.so')
-../src/patchelf --output "${SCRATCH}/big-needed" --replace-needed "${oldLibc}" long_long_very_long_libc.so.6 --replace-needed libfoo.so lf.so big-dynstr
-
-if ! ../src/patchelf --print-needed "${SCRATCH}/big-needed" | grep -Fxq "long_long_very_long_libc.so.6"; then
-	echo "library long_long_very_long_libc.so.6 not found as NEEDED"
-	../src/patchelf --print-needed "${SCRATCH}/big-needed"
-	exit 1
-fi
-
-if ! ../src/patchelf --print-needed "${SCRATCH}/big-needed" | grep -Fxq "lf.so"; then
-	echo "library lf.so not found as NEEDED"
-	../src/patchelf --print-needed "${SCRATCH}/big-needed"
-	exit 1
-fi
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ca317c77d33fbb7a61ca4d34bd126b372810a838d3a60c9688dac9597cff8e9
+size 761
