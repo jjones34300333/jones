@@ -1,0 +1,22 @@
+[
+    {
+        "number": "+14055939800",
+        "name": "Client 1",
+        "priority": "high"
+    },
+    {
+        "number": "+14051234567",
+        "name": "Client 2",
+        "priority": "normal"
+    },
+    {
+        "number": "+14055939800",
+        "name": "Client 1",
+        "priority": "high"
+    },
+    {
+        "number": "+14051234567",
+        "name": "Client 2",
+        "priority": "normal"
+    }
+]

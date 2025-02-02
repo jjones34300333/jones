@@ -1,0 +1,100 @@
+google-search-results>=2.4.2
+
+# for AutoGPT:
+duckduckgo-search>=4.1.1
+gradio_tools>=0.0.9
+wikipedia>=1.4.0
+wolframalpha>=5.0.0
+semanticscholar>=0.7.0
+sympy>=1.12
+
+
+# for AutoGen
+pyautogen==0.2.33
+# 2.3.0 breaks older autogen with xgboost import
+flaml==2.2.0
+pyautogen[redis]
+#pyautogen[ipython]
+pyautogen[retrievechat]
+pyautogen[lmm]
+#pyautogen[mathchat]<0.2
+pyautogen[graph]
+pyautogen[long-context]
+
+# helpers for AutoGen (most are already installed)
+sympy
+seaborn
+scikit-learn
+statsmodels
+plotly
+numpy
+lightgbm
+nltk
+spacy
+opencv-python
+opencv-python-headless
+textblob
+imageio
+bokeh
+altair
+# part of already-installed complex thing:
+#pysqlite3
+bs4
+requests
+lxml
+httpx
+# bit heavy and not normally installed:
+scrapy
+# selenium
+wolframalpha
+semanticscholar
+googlesearch-python
+google-search-results
+reportlab
+yfinance
+# too different deps like pandas
+# yahooquery
+
+# svg support
+svglib
+cairosvg
+
+# requires poppler from conda or apt-get
+pdf2image
+# for graphviz support
+pydot
+
+# old but light requirements
+PyPDF2
+
+# just to be sure stays around
+tzlocal
+
+# for plots
+seaborn
+
+# Aider tool
+# installs old tokenizers 0.19.1 due to litellm even if don't care
+# So only install in steps in linux_install.sh for now
+# aider-chat>=0.59.0
+
+# bing api
+# https://github.com/microsoft/bing-search-sdk-for-python/tree/main
+msrest
+azure-core
+azure-common
+msrestazure
+microsoft-bing-websearch
+microsoft-bing-visualsearch
+microsoft-bing-videosearch
+microsoft-bing-imagesearch
+microsoft-bing-newssearch
+#microsoft-bing-spellcheck
+#microsoft-bing-entitysearch
+#microsoft-bing-autosuggest
+microsoft-bing-customimagesearch
+microsoft-bing-customwebsearch
+
+# DAI:
+h2o_engine_manager
+h2o_authn

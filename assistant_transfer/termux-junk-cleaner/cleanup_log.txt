@@ -1,0 +1,69 @@
+
+[1;34m-----------------------------------
+Date: Wed Jan 29 00:23:07 CST 2025[0m
+[1;34m-----------------------------------
+[1;31mOld cleanup logs deleted.
+/data/data/com.termux/files/home/debian-fs/var/log/apt/term.log
+/data/data/com.termux/files/home/debian-fs/var/log/apt/history.log
+/data/data/com.termux/files/home/debian-fs/var/log/dpkg.log
+/data/data/com.termux/files/home/debian-fs/var/log/alternatives.log
+/data/data/com.termux/files/home/debian-fs/var/log/bootstrap.log
+/data/data/com.termux/files/home/ubuntu-fs/var/log/dpkg.log
+/data/data/com.termux/files/home/ubuntu-fs/var/log/alternatives.log
+/data/data/com.termux/files/home/ubuntu-fs/var/log/apt/term.log
+/data/data/com.termux/files/home/ubuntu-fs/var/log/apt/history.log
+/data/data/com.termux/files/home/ubuntu-fs/var/log/bootstrap.log
+/data/data/com.termux/files/home/.npm/_logs/2025-01-12T01_19_05_508Z-debug-0.log
+/data/data/com.termux/files/home/.npm/_logs/2025-01-12T01_20_06_234Z-debug-0.log
+/data/data/com.termux/files/home/.npm/_logs/2025-01-12T16_07_40_764Z-debug-0.log
+/data/data/com.termux/files/home/.npm/_logs/2025-01-12T16_16_52_343Z-debug-0.log
+/data/data/com.termux/files/home/.npm/_logs/2025-01-12T16_17_11_038Z-debug-0.log
+/data/data/com.termux/files/home/.npm/_logs/2025-01-12T16_17_24_946Z-debug-0.log
+/data/data/com.termux/files/home/.npm/_logs/2025-01-12T16_18_32_807Z-debug-0.log
+/data/data/com.termux/files/home/.npm/_logs/2025-01-12T16_18_43_211Z-debug-0.log
+/data/data/com.termux/files/home/.npm/_logs/2025-01-12T16_19_39_196Z-debug-0.log
+/data/data/com.termux/files/home/.npm/_logs/2025-01-24T06_11_26_920Z-debug-0.log
+/data/data/com.termux/files/home/.npm/_logs/2025-01-25T20_38_11_551Z-debug-0.log
+/data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.8/tests/data/sample_zellij_session.log
+/data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.11.1/record/old-bench-log/10-last-frontier/rust-after-literal.log
+/data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.11.1/record/old-bench-log/10-last-frontier/rust-before-literal.log
+/data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.11.1/record/old-bench-log/10-last-frontier/rust-bytes-after-literal.log
+/data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.11.1/record/old-bench-log/10-last-frontier/rust-bytes-before-literal.log
+/data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.6/record/old-bench-log/10-last-frontier/rust-after-literal.log
+/data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.6/record/old-bench-log/10-last-frontier/rust-before-literal.log
+/data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.6/record/old-bench-log/10-last-frontier/rust-bytes-after-literal.log
+/data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.6/record/old-bench-log/10-last-frontier/rust-bytes-before-literal.log
+/data/data/com.termux/files/home/Python-3.11.6/config.log
+/data/data/com.termux/files/home/patchelf/config.log
+/data/data/com.termux/files/home/.cache/pip/wheels/2e/8c/9c/1dbb5c95959b5bd52f5be514383c2d6de78be28de8c5510b5c/origin.json
+/data/data/com.termux/files/home/.cache/pip/wheels/d9/d6/47/04075995b093ecc87c212c9a3dbd34e59456c6fe504d65c3e4/origin.json
+/data/data/com.termux/files/home/.cache/pip/wheels/d9/7a/52/2a335444954d3846512e13b18f561cc551bd3e599741365f60/origin.json
+/data/data/com.termux/files/home/.cache/pip/wheels/b3/39/81/34dd7a2eca5f885f1f6e2796761970daf66a2d98ac1904f5f4/origin.json
+/data/data/com.termux/files/home/.cache/pip/wheels/cd/3a/c2/7f2839239a069aa3c9564f6777cbb29d733720ef673f104f0d/origin.json
+/data/data/com.termux/files/home/.cache/pip/wheels/23/d5/13/4e9bdadbfe3c78e47c675e7410c0eed2fbb63c5ea6cf1b40e7/origin.json
+/data/data/com.termux/files/home/.cache/pip/wheels/b1/9b/f3/08650eb7f00af32f07789f3c6a101e0d7fc762b9891ae843bb/origin.json
+/data/data/com.termux/files/home/.cache/pip/wheels/55/e7/aa/239163543708d1e15c3d9a1b89dbfe3954b0929a6df2951b83/origin.json
+/data/data/com.termux/files/home/.cache/pip/wheels/a1/4c/74/f3627dc31a082129210025befb30084e73af761d007ac5c7b3/origin.json
+/data/data/com.termux/files/home/.cache/pip/wheels/e0/e8/fc/8ab8aa326e33bc066ccd5f3ca9646eab4299881af933f94f09/origin.json
+/data/data/com.termux/files/home/.cache/pip/wheels/0b/1e/d7/0c74bd8f60b39c14d84e307398786002aa7ddc905927cc03c5/origin.json
+/data/data/com.termux/files/home/.cache/pip/wheels/46/a4/9b/eecf1e8cb5715eb58d44f400e10a2096c55da4bc48db4fe1d9/origin.json
+/data/data/com.termux/files/home/.cache/pip/wheels/75/a1/5f/85ee819e5d341669dffcb77b9388f5fda63ec0e55ed0397d79/origin.json
+/data/data/com.termux/files/home/.cache/pip/wheels/5d/01/8b/67118a2692d22c68ca1791c81e03be4a24771ef2b743c2ecdf/origin.json
+/data/data/com.termux/files/home/.cache/pip/wheels/db/db/e2/4a1264f6c5192c518338cd8c226caae9f43c610fdb76c1ebcb/origin.json
+/data/data/com.termux/files/home/.cache/pip/wheels/9d/a6/cb/ed8ecf8337b6214a8ce17aa9f680af84808f680cee31509cab/origin.json
+/data/data/com.termux/files/home/.cache/pip/wheels/5f/34/f8/3fcda88608d0079e9a443733c29565eaa2a7343c71442680a2/origin.json
+/data/data/com.termux/files/home/.cache/pip/selfcheck/ea113fc86968c524ef47c40132fc948bf5842dcdc6fd1ae914ea4842
+/data/data/com.termux/files/home/.cache/pip/selfcheck/b298d0a95bee3448f25cd7b83fb5a82e3d4208ac720aca4da2b7dbbb
+/data/data/com.termux/files/home/.cache/pip/selfcheck/dc23d26fba1153d5b86af8016c159e8ff2cf9f38081855554ed95daa
+/data/data/com.termux/files/home/.cache/crontab/crontab.bak
+/data/data/com.termux/cache/apt/archives/lock
+/data/data/com.termux/cache/apt/srcpkgcache.bin
+/data/data/com.termux/cache/apt/pkgcache.bin
+/data/data/com.termux/cache/oat_primary/arm64/base.art
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+

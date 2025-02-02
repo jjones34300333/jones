@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  h2ogpt:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    shm_size: '2gb'
+    ports:
+      - '${H2OGPT_PORT}:7860'
+    volumes:
+      - cache:/workspace/.cache
+      - save:/workspace/save
+    command: ${H2OGPT_ARGS}
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            count: all
+            capabilities: [gpu]
+
+volumes:
+  cache:
+  save:

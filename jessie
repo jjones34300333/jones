@@ -1,0 +1,83 @@
+import React from 'react';
+
+const PayStub = () => {
+  return (
+    <div className="max-w-2xl mx-auto p-6 bg-white border border-gray-200 rounded-lg shadow-sm">
+      {/* Header */}
+      <div className="border-b-2 border-gray-800 pb-4 mb-4">
+        <h1 className="text-2xl font-bold text-center mb-2">ANGRY BEAVER TREE SERVICE</h1>
+        <h2 className="text-xl text-center text-gray-600">PAY STATEMENT</h2>
+      </div>
+
+      {/* Pay Period Info */}
+      <div className="grid grid-cols-2 gap-4 mb-6">
+        <div>
+          <p className="font-semibold">Pay Period:</p>
+          <p>4 Weeks</p>
+        </div>
+        <div className="text-right">
+          <p className="font-semibold">Employee:</p>
+          <p>Jessie Garner</p>
+        </div>
+      </div>
+
+      {/* Earnings Section */}
+      <div className="mb-6">
+        <h3 className="text-lg font-bold mb-2 bg-gray-100 p-2">Earnings</h3>
+        <div className="grid grid-cols-4 gap-2 text-sm">
+          <div className="font-semibold">Description</div>
+          <div className="font-semibold text-right">Hours</div>
+          <div className="font-semibold text-right">Rate</div>
+          <div className="font-semibold text-right">Amount</div>
+
+          <div>Regular Pay</div>
+          <div className="text-right">116.00</div>
+          <div className="text-right">$20.00</div>
+          <div className="text-right">$2,320.00</div>
+        </div>
+      </div>
+
+      {/* Deductions Section */}
+      <div className="mb-6">
+        <h3 className="text-lg font-bold mb-2 bg-gray-100 p-2">Deductions</h3>
+        <div className="grid grid-cols-2 gap-2 text-sm">
+          <div className="font-semibold">Description</div>
+          <div className="font-semibold text-right">Amount</div>
+
+          <div>Federal Income Tax</div>
+          <div className="text-right">$278.40</div>
+
+          <div>State Income Tax (OK)</div>
+          <div className="text-right">$116.00</div>
+
+          <div>Social Security</div>
+          <div className="text-right">$143.84</div>
+
+          <div>Medicare</div>
+          <div className="text-right">$33.64</div>
+        </div>
+      </div>
+
+      {/* Summary Section */}
+      <div className="border-t-2 border-gray-800 pt-4">
+        <div className="grid grid-cols-2 gap-2 text-sm font-bold">
+          <div>Gross Pay</div>
+          <div className="text-right">$2,320.00</div>
+
+          <div>Total Deductions</div>
+          <div className="text-right">$571.88</div>
+
+          <div className="text-lg">Net Pay</div>
+          <div className="text-lg text-right">$1,748.12</div>
+        </div>
+      </div>
+
+      {/* Footer */}
+      <div className="mt-6 text-xs text-gray-500 text-center">
+        <p>This is not an official pay stub - for demonstration purposes only</p>
+      </div>
+    </div>
+  );
+};
+
+export default PayStub;

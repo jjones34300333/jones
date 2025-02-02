@@ -1,0 +1,5 @@
+8ffb3673142284cbade601370144eaf5  lib/udev/hwdb.d/90-hwe-ubuntu.hwdb
+fc6eaf48abd39f67e3e951d73c5be501  lib/udev/hwdb.d/90-keyboard-ubuntu.hwdb
+e3378e51e5c5000301f3f060ad9405a6  lib/udev/hwdb.d/90-sensor-ubuntu.hwdb
+23bed1b70e6bf2dedbc04cc3d0cc6fec  usr/share/doc/systemd-hwe-hwdb/changelog.gz
+5fb17a774c7549d813700ae3a3aaa23a  usr/share/doc/systemd-hwe-hwdb/copyright

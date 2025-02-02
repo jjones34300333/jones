@@ -1,0 +1,5 @@
+9c6ddceb18344740053bd9df75dbca0a  usr/libexec/dconf-service
+d44a5a1da5322a695b768c81c21f0a98  usr/share/dbus-1/services/ca.desrt.dconf.service
+48c7a881081d4239153220639a786878  usr/share/doc/dconf-service/changelog.Debian.gz
+0986de5d536023dd94efc4a313e2149e  usr/share/doc/dconf-service/copyright
+d48a39fb7dd70d3dbb492aea3482982c  usr/share/man/man1/dconf-service.1.gz
